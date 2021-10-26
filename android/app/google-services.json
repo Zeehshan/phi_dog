@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "839564879568",
+    "firebase_url": "https://phi-dog-8ce4a.firebaseio.com",
+    "project_id": "phi-dog-8ce4a",
+    "storage_bucket": "phi-dog-8ce4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839564879568:android:3c49616adfa362320ce0d5",
+        "android_client_info": {
+          "package_name": "com.example.phi_dog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839564879568-5sq2igjnei75uh0dk2j9suv1a76mrdjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTx16iMExcIZHrRGT3CLFzEWgyDUZd_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839564879568-5sq2igjnei75uh0dk2j9suv1a76mrdjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839564879568:android:4e8f8505f776e19a0ce0d5",
+        "android_client_info": {
+          "package_name": "de.phidog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839564879568-5sq2igjnei75uh0dk2j9suv1a76mrdjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTx16iMExcIZHrRGT3CLFzEWgyDUZd_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839564879568-5sq2igjnei75uh0dk2j9suv1a76mrdjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
