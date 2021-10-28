@@ -24,15 +24,17 @@ class DogExcerciseLevel extends StatelessWidget {
                   color: Theme.of(context).colorScheme.secondary, fontSize: 20),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(right: 20, top: 50, left: 20),
-            child: DropDownMenu3(
-              value: bloc.selectedDoghLevel ??
-                  bloc.selectedDog!.dogExerciseLevel![0],
-              listMenue: bloc.selectedDog!.dogExerciseLevel,
-              onPressed: (value) => bloc.setSelectedDoghLevel(value!),
-            ),
-          ),
+          bloc.selectedDog != null
+              ? Padding(
+                  padding: const EdgeInsets.only(right: 20, top: 50, left: 20),
+                  child: DropDownMenu3(
+                    value: bloc.selectedDoghLevel ??
+                        bloc.selectedDog?.dogExerciseLevel?[0],
+                    listMenue: bloc.selectedDog!.dogExerciseLevel,
+                    onPressed: (value) => bloc.setSelectedDoghLevel(value!),
+                  ),
+                )
+              : Container(),
           SizedBox(
             height: MediaQuery.of(context).size.height * .3,
           ),
@@ -40,6 +42,7 @@ class DogExcerciseLevel extends StatelessWidget {
             padding: const EdgeInsets.only(right: 20),
             child: Align(
               alignment: Alignment.centerRight,
+              // ignore: deprecated_member_use
               child: RaisedButton(
                 color: Theme.of(context).appBarTheme.backgroundColor,
                 child: Text(

@@ -19,7 +19,7 @@ class ThemeNotifier with ChangeNotifier {
   }
 
   bool? _selectedItem;
-  bool get selected => _selectedItem!;
+  bool get selected => _selectedItem ?? false;
 
   void setSelectedItem(bool s) {
     print(s);
@@ -36,7 +36,7 @@ class ThemeNotifier with ChangeNotifier {
   }
 
   DogModel? _selectedDog;
-  DogModel? get selectedDog => _selectedDog!;
+  DogModel? get selectedDog => _selectedDog;
 
   void setSelectedDog(DogModel s) {
     _selectedDog = s;
@@ -50,7 +50,7 @@ class ThemeNotifier with ChangeNotifier {
   }
 
   DogExerciseLevel? _selectedDoghLevel;
-  DogExerciseLevel? get selectedDoghLevel => _selectedDoghLevel!;
+  DogExerciseLevel? get selectedDoghLevel => _selectedDoghLevel;
 
   void setSelectedDoghLevel(DogExerciseLevel s) {
     _selectedDoghLevel = s;
